@@ -6,7 +6,7 @@
 
 使用方法
 -------
-依赖：YoloV5、X-anyLabling、PySide6
+依赖：YoloV5、X-AnyLabling、PySide6
 
 直接运行main.py，即可使用本程序，具体效果可以观看演示视频。
 
