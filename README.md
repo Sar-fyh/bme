@@ -1,13 +1,13 @@
-外周血细胞检测系统
+A Deep Active Learning-Based Annotation and Recognition System for Peripheral Blood Cell Images
 ===
-项目介绍
+Introduction
 -------
-在血液疾病诊疗与病程监测中，外周血细胞检测至关重要，但现有技术存在检测范围窄、数据不平衡导致检测准确性低等问题。本外周血细胞检测系统基于主动学习，融合密度驱动、多样性及不确定性三重查询机制，搭配改进型YOLOv5与注意力机制，采用26类细胞分类体系，不仅能自动标注并支持人工矫正血细胞类别，还可实现精准计数统计。实验显示，该系统在私有和公共数据集上的检测精度均显著优于传统方法，减少大量手动标注工作量，且已在合作医院完成初步部署，为血液疾病精准诊疗提供了可靠高效的解决方案。 
+In the diagnosis and treatment of blood diseases and disease progression monitoring, peripheral blood cell testing is of critical importance. However, existing technologies suffer from limitations such as narrow detection ranges and data imbalance, leading to low detection accuracy. This peripheral blood cell detection system is based on active learning, integrating a triple query mechanism driven by density, diversity, and uncertainty, combined with an improved YOLOv5 model and attention mechanism. It employs a 26-category cell classification system, enabling automatic annotation of blood cell categories with support for manual correction, as well as precise counting and statistical analysis. Experiments show that the system achieves significantly higher detection accuracy than traditional methods on both private and public datasets, reducing the need for extensive manual annotation. It has already been preliminarily deployed in collaborating hospitals, providing a reliable and efficient solution for precise diagnosis and treatment of blood diseases.  
 
-使用方法
+Methods
 -------
-依赖：YoloV5、X-AnyLabling、PySide6
+Dependencies: YoloV5, X-AnyLabling, PySide6
 
-直接运行main.py，即可使用本程序，具体效果可以观看演示视频。
+Simply run main.py to use this program. For a demonstration of its functionality, please view the demo video.
 
-各函数的信息，均在代码中写好了注释，如有疑问请联系1064838981@qq.com
+Information about each function is written in the code comments，If you have any questions, please contact 1064838981@qq.com
